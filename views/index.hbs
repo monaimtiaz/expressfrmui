@@ -1,0 +1,61 @@
+
+<body>
+		{{>header}}
+	<div class="signup-form">
+		<form  action="/welcome"method="get">
+			<h1><b>Login </b></h1>
+			 
+			<div class="form-group ">
+			
+					<div class="form-label-group">
+						 			 				 
+							<input type="email" class="form-control " name="email" placeholder="Email"  id="label-password" required="required  autofocus">
+							<label for="label-email">Email</label>
+						</div>
+			</div> 
+			<!--
+			<div class="form-group">
+					<div class="input-group ">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span>
+						<input type="password" class="form-control" name="password" placeholder="Password" required="required">
+						 
+					</div>
+				</div> -->
+				
+
+	
+				<div class="form-group">
+					<div class="form-label-group">
+						 			 				 
+					<input type="password" class="form-control" name="password" placeholder="Password"  id="label-password" required="required  autofocus">
+					<label for="label-name">Password</label>
+				</div>
+		
+
+			</div>
+			<br>
+
+			<p ><h4 class="text-center ">Don't have an account ?<a href="/signup">Sign Up</a></h4></p>
+			<p>
+
+					<p class="text-divider"><span>OR</span></p>
+					
+				<a href="" class="btn btn-block btn-facebook  "> 
+				<i class="fab fa-facebook-f " style='font-size:22px; background-color: #507cc0;color:white'>
+						&nbsp;	<button type="button" class="btn btn-info" style="background-color:#507cc0">Connect with facebook</button></i></a>
+
+
+						<a href=""  class="btn btn-block btn-google  "> <i class='fab fa-google-plus ' style='font-size:19px; background-color:rgb(201, 89, 89);color:white'>
+					&nbsp;	<button type="button" class="btn btn-danger">Connect with Google</button></i></a>
+					 
+
+
+			</p>
+			<div class="form-group">
+				<button type="submit" class="btns btn-primary  btn-block btn-lg">Log In</button>
+			</div>
+		</form>
+	</div>
+
+	{{>footer}}
+</body>
